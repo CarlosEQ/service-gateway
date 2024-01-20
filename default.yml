@@ -1,0 +1,9 @@
+gateway:
+  listenAddr: localhost:8080
+  routes:
+    - name: expense tracker service
+      context: /v1/expense-tracker
+      target: http://127.0.0.1:4040/api/v1
+    - name: expense tracker service B
+      context: /v1/expense-tracker-service
+      target: https://expensetracker-ujbnxeu3.b4a.run/api/v1
