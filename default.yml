@@ -1,5 +1,5 @@
 gateway:
-  listenAddr: localhost:8080
+  listenAddr: ":8080"
   routes:
     - name: expense tracker service
       context: /v1/expense-tracker
