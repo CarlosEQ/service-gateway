@@ -3,4 +3,4 @@ gateway:
   routes:
     - name: expense tracker service
       context: /v1/expense-tracker
-      target: https://expensetracker-ujbnxeu3.b4a.run/api/v1
+      target: https://servicegateway-l7zt6hkl.b4a.run/api/v1
